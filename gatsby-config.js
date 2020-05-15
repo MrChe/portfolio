@@ -6,6 +6,8 @@ module.exports = {
         basePath: ``,
         path: `src/`,
         imagesPath: `src/images/`,
+        iconFile: `src/images/icon.png`,
+        typographyPath: `src/utils/typography`,
         siteTitle: `Portfolio`,
         siteUrl: `https://www.jsleonidkuznetsov.com`,
         siteName: `Leonid Kuznetsov`,

@@ -1,4 +1,4 @@
-import Typography from "typography"
+import Typography from "typography";
 
 const typography = new Typography({
   baseFontSize: "16px",
@@ -44,5 +44,5 @@ const typography = new Typography({
   }),
 });
 
-export default typography
+export default typography;
 export const rhythm = typography.rhythm;
