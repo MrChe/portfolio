@@ -58,6 +58,6 @@ const styles = css`
   .e404 .btn-contact-color {
     color: #000;
   }
-`
+`;
 
 export default styles
