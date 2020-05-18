@@ -15,18 +15,18 @@ const Menu = ({
 }) => {
   const defaultLinks = {
     home: { title: "Home", color: "#000", url: "/" },
-    experience: {
-      title: "Experience",
-      color: "#3a3d98",
-      url: "/experience",
-    },
+    // experience: {
+    //   title: "Experience",
+    //   color: "#3a3d98",
+    //   url: "/experience",
+    // },
     skills: { title: "Skills", color: "#d52d43", url: "/skills" },
-    aboutMe: {
-      title: "About Me",
-      color: "#fff",
-      url: "/about-me",
-    },
-  };
+    // aboutMe: {
+    //   title: "About Me",
+    //   color: "#fff",
+    //   url: "/about-me",
+    // },
+  }
 
   const [isMenuOpen, setIsMenuOpen] = useState(null)
   const elmHamburger = useRef()
@@ -149,7 +149,7 @@ const Menu = ({
             key={`path${index}`}
             ref={pathRef.current[index]}
             css={shapePath}
-          ></path>
+          />
         ))}
       </svg>
     )

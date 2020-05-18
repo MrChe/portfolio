@@ -19,14 +19,24 @@ module.exports = {
           // title = Link text
           // color = Animation background color on click
           { name: `home`, title: `Home`, color: `#02040f`, link: `/` },
+          // {
+          //   name: `experience`,
+          //   title: `Experience`,
+          //   color: `#002642`,
+          //   link: `/experience`,
+          // },
           {
-            name: `experience`,
-            title: `Experience`,
-            color: `#002642`,
-            link: `/experience`,
+            name: `skills`,
+            title: `Skills`,
+            color: `#840032`,
+            link: `/skills`,
           },
-          { name: `skills`, title: `Skills`, color: `#840032`, link: `/skills` },
-          { name: `aboutMe`, title: `About Me`, color: `#e59500`, link: `/about-me` },
+          // {
+          //   name: `aboutMe`,
+          //   title: `About Me`,
+          //   color: `#e59500`,
+          //   link: `/about-me`,
+          // },
         ],
         email: `js.leonid.kuznetsov@gmail.com`,
         social: {
@@ -72,4 +82,4 @@ module.exports = {
       },
     },
   ],
-};
+}
