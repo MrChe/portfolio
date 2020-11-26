@@ -42,6 +42,9 @@ const styles = css`
   svg:not(:root) {
     overflow: hidden;
   }
+  svg {
+    pointer-events: none;
+  }
   @media only screen and (max-width: 480px) {
     html {
       font-size: 100%;
@@ -52,9 +55,6 @@ const styles = css`
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    min-height: -moz-available;
-    min-height: -webkit-fill-available;
-    min-height: fill-available;
   }
   .pgContent {
     margin-bottom: 34.5px;
